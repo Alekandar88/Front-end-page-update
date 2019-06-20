@@ -1,0 +1,166 @@
+
+Style.css line 1206
+.progress-info { display: block; font-size: 16px; color: #FF0097; padding: 12px 0 22px; }
+-------------------------------------------------------------------------------------------
+
+Style.css line 1295
+.icon-border { border: 1px solid white; }
+-------------------------------------------------------------------------------------------
+
+Style.css line 2053
+.token-info-title { font-size: 0.7rem; text-transform: uppercase; font-weight: 700; letter-spacing: 0.04em; color: #777777; margin-bottom: 4px; }
+-------------------------------------------------------------------------------------------
+
+index.html
+line 479 to 485
+
+data-border-color="#636363"
+data-color="#777777"
+-------------------------------------------------------------------------------------------
+
+
+Style.css line 2340
+.chart-sublabel { font-size: 13px; color: white; margin-left: 8px; }
+-------------------------------------------------------------------------------------------
+
+Index.html line-576 ( change data item tab )
+
+<div class="roadmap-slider has-carousel carousel-nav-center" data-blank="true" data-items="3" data-items-tab-l="4" data-items-tab-p="3" data-items-mobile="2" data-margin="-1" data-navs="true">
+-------------------------------------------------------------------------------------------
+
+Add this to style.css at last
+
+.accordion-content p{ color: white; }
+.nk-block-text p{ color: white; }
+.ttu{color: white;  }
+
+-------------------------------------------------------------------------------------------
+
+style.css comment the line- 113
+/*.nk-df-over-up, .has-ovm > [class*=container], .has-ovm > :not(.nk-ovm):not(.header-main):not(.nk-header), .has-bg-image > [class*=container] { position: relative; z-index: 5; }*/
+
+-------------------------------------------------------------------------------------------
+
+style.css comment the line- 2332 change border colour
+
+.chart-data-item:before, .chart-data-item:after { position: absolute; content: ''; top: 0; height: 100%; width: 45px; border: 2px solid white; transition: all .4s; }
+
+-------------------------------------------------------------------------------------------
+
+style.css comment the line- 2182 add  colour
+
+.team-position { font-size: 12px; font-weight: 400; display: inline-block; color: white;}
+
+-------------------------------------------------------------------------------------------
+
+style.css comment the line- 2242 add  colour
+
+.contact-text { padding-top: 7px; color: white;}
+
+
+----------------------------------------------------------------------------------------------
+
+Add this to Tocket Sale button in index.html
+
+data-toggle="modal" data-target="#tocken_sale"
+
+
+add modal code on index.html
+
+<style type="text/css">
+    .sel_div{
+        border: 1px solid silver;
+    }
+</style>
+
+    <!-- The Modal -->
+<div class="modal" id="tocken_sale">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content bg-theme tc-light">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Buy Tokens</h4>
+        <a href="#" class="modal-close" data-dismiss="modal" aria-label="Close"><em class="ti ti-close"></em></a>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body bg-theme tc-light">
+        <div class="col-md-12">
+            <p>Select the payment method and calculate token price.</p>
+            <div class="row">
+                <div class="col-md-3 text-center sel_div"><br/><img src="images/zeth.png"style="height: 50px;" ><br/>Etherium<br/>@ 0.1 ETH<br/><br/></div>
+                <div class="col-md-3 text-center sel_div"><br/><img src="images/zltc.png"style="height: 50px;" ><br/>Litecoin<br/>@ 0.1 LTC<br/><br/></div>
+                <div class="col-md-3 text-center sel_div"><br/><img src="images/zbtc.png"style="height: 50px;" ><br/>Bitcoin<br/>@ 0.1 BTC<br/><br/></div>
+                <div class="col-md-3 text-center sel_div"><br/><img src="images/zusd.png"style="height: 50px;" ><br/>USD<br/>@ 0.1 USD</div>
+            </div>
+            <br/>
+            <p>02. Sot amount of ICOX tokons you would like to purchaso </p>
+            <p>To become a part of the ICO Crypto project and purchase of ICOX tokon will only be possible after payment made and rocoving an approval. As you liko to participate our project, please select payment method and enter the amount of ICOX tokens you wish to purchase. You can buy ICOX tokens using ETH. BTC. LTC or USD.</p>
+            <table style="width: 100%">
+                <tr>
+                    <td>Token to purchase</td>
+                    <td></td>
+                    <td>Payment Amount</td>
+                    <td>&nbsp;&nbsp;Current Bonus</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="form-group">
+                          <div class="input-group mb-3">
+                            <input type="text" class="form-control" value="1200" aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                              <span class="input-group-text">.00</span>
+                            </div>
+                          </div>
+                        </div>
+                    </td>
+                    <td>&nbsp;&nbsp;<->&nbsp;&nbsp;</td>
+                    <td>
+                        <div class="form-group">
+                          <div class="input-group mb-3">
+                            <input type="text" class="form-control" value="600" aria-label="Amount (to the nearest dollar)">
+                            <div class="input-group-append">
+                              <span class="input-group-text">.00</span>
+                            </div>
+                          </div>
+                        </div>
+                    </td>
+                    <td>
+                        &nbsp;&nbsp;20% on Pre sales
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <p>The calculator helps you to convert required currency to COX tokens.</p>
+            <div style="border: 1px solid silver;padding: 10px;">
+            <table class="text-center" style="width: 100%;">
+                <tr>
+                    <td>Final Payment</td>
+                    <td>Recieved Bonus</td>
+                    <td>Tokens Recived</td>
+                </tr>
+                <tr>
+                    <td>600.00 USD</td>
+                    <td>+600.00 ICOX</td>
+                    <td>12,200 ICOX</td>
+                </tr>
+            </table>
+            </div>
+
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Purchase Token</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+----------------------------------------------------------------------------------------------
+
+
